@@ -1,0 +1,21 @@
+.dynamic-text {
+  overflow: hidden;
+}
+
+.dynamic-text{
+  animation: text-animation 2s linear infinite;
+}
+
+@keyframes text-animation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
